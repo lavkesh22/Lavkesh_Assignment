@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Portfolio Project</title>
+    <link rel="stylesheet" href="1style.css">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+</head>
+  <script src="1script.js"></script>
+<body>
+
+    <header>
+        <h1>Student Portfolio Website</h1>
+
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <hr>
+    </header>
+
+    <main>
+
+        <!-- About Section -->
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                My name is <b>Lavkesh Kushwaha</b>.
+                I am a <strong>BCA Graduate</strong>.
+                I love <i>Programming</i> and <em>Web Development</em>.
+                <u>: I am interested in Web Development. text</u>.
+                <mark> My favorite programming language is Java Full Stack Development.</mark>.
+            </p>
+           <!-- Superscript and Subscript
+            <p>
+                Water Formula: H<sub>2</sub>O <br>
+                Math Formula: X<sup>2</sup> <br>
+                <del>Old Content</del>
+                <ins> New Content</ins> <br>
+                <small>This is small text.</small>
+            </p>
+            -->
+             <img src="/logo.jpeg" alt="Student Image" style="width: 120px"height="120px">
+
+        </section>
+
+        <hr>
+
+        <!-- Skills Section -->
+        <section id="skills">
+
+            <h2>Skills</h2>
+
+            <h3>Programming Languages</h3>
+
+            <ul>
+                <li>C</li>
+                <li>Python</li>
+                <li>Java</li>
+            </ul>
+
+            <h3>Learning Sequence</h3>
+
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+
+            <h3>Description List</h3>
+
+            <dl>
+                <dt>HTML</dt>
+                <dd>Used to create web pages.</dd>
+
+                <dt>CSS</dt>
+                <dd>Used for styling web pages.</dd>
+            </dl>
+
+        </section>
+
+        <hr>
+
+        <!-- Table Section -->
+        <section>
+
+            <h2>Academic Record</h2>
+
+            <table>
+
+                <caption>Student Marks</caption>
+
+                <tr>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                </tr>
+
+                <tr>
+                    <td>HTML</td>
+                    <td>90</td>
+                </tr>
+
+                <tr>
+                    <td>Python</td>
+                    <td>95</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+        <hr>
+
+        <!-- Article -->
+        <article>
+
+            <h2>Article Section</h2>
+
+            <p>
+                This article contains information about the student's achievements.
+            </p>
+
+        </article>
+
+        <!-- Aside -->
+        <aside>
+
+            <h3>Notice Board</h3>
+
+            <p>Exam starts from next month.</p>
+
+        </aside>
+
+        <hr>
+
+        <!-- Progress -->
+        <section>
+
+            <h2>Progress & Meter</h2>
+
+            <label>Course Completion:</label>
+            <progress value="75" max="100"></progress>
+
+            <br><br>
+
+            <label>Skill Level:</label>
+            <meter value="80" min="0" max="100"></meter>
+
+        </section>
+
+        <hr>
+
+        <!-- Details -->
+        <section>
+
+            <details>
+                <summary>Click to Read More</summary>
+
+                <p>
+                    This content is hidden by default and appears when clicked.
+                </p>
+
+            </details>
+
+        </section>
+
+        <hr>
+
+        <!-- Audio -->
+        <section>
+
+            <h2>Audio Example</h2>
+
+            <audio controls>
+                <source src="./Sankat_Kate_Mite_Sab_Pira_Ring_Tone(48k).mp3">
+            </audio>
+
+        </section>
+
+        <hr>
+
+        <!-- Video -->
+        <section>
+
+            <h2>Video Example</h2>
+
+           <video width="300" controls>
+                <source src="Vaaste Song Dhvani Bhanushali Tanishk Bagchi Nikhil D Bhushan Kumar Radhika Rao Vinay Sapru - Copy.mp4">
+            </video>
+
+        </section>
+
+        <hr>
+
+        <!-- Iframe -->
+        <section>
+
+            <h2>YouTube Video</h2>
+
+            <iframe
+             width="560"
+             height="315"
+             src="https://youtu.be/kIFJ5_xNslM?si=8PaPMNfvGwVeXA2_"
+             title="YouTube video player"
+              allowfullscreen>
+</iframe>
+
+        </section>
+
+        <hr>
+
+        <!-- Contact Form -->
+        <section id="contact">
+
+            <h2>Student Registration Form</h2>
+
+            <form>
+
+                <fieldset>
+
+                    <legend>Registration Details</legend>
+
+                    <label>Name:</label>
+                    <input type="text">
+                    <br><br>
+
+                    <label>Email:</label>
+                    <input type="email">
+                    <br><br>
+
+                    <label>Password:</label>
+                    <input type="password">
+                    <br><br>
+
+                    <!-- Radio Button -->
+                    <label>Gender:</label>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                    <br><br>
+
+                    <!-- Checkbox -->
+                    <label>Skills:</label>
+                    <input type="checkbox"> HTML
+                    <input type="checkbox"> CSS
+                    <input type="checkbox"> JavaScript
+                    <br><br>
+
+                    <label>Course:</label>
+
+                    <select>
+                        <option>BCA</option>
+                        <option>MCA</option>
+                        <option>B.Tech</option>
+                    </select>
+
+                    <br><br>
+
+                    <label>Message:</label>
+                    <br>
+
+                    <textarea rows="4" cols="30"></textarea>
+
+                    <br><br>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- Div and Span -->
+        <div>
+
+            <h4>personal details</h4>
+
+            <span>
+                web Development is my passion and I am dedicated to creating visually appealing and user-friendly websites. <br>I have a strong foundation in HTML, CSS, and JavaScript, and b
+                 I am constantly learning new technologies to enhance my skills. My goal is to contribute to the field of web development by building innovative and functional web applications.
+            </span>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <hr>
+
+        <p>
+            © 2026 Student Portfolio Project
+        </p>
+
+    </footer>
+
+</body>
+</html>
